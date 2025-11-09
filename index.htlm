@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Calendrier de l'Avent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎄 Calendrier de l'Avent</h1>
+  <div class="calendar" id="calendar"></div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="close">&times;</span>
+      <h2 id="day-title"></h2>
+      <p id="riddle"></p>
+      <input type="text" id="answer" placeholder="Votre réponse">
+      <button onclick="checkAnswer()">Valider</button>
+      <p id="feedback"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
